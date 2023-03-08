@@ -55,6 +55,51 @@ struct ContentView: View {
                 
                 
                 //MARK: - Slot Machine
+                VStack(alignment: .center, spacing: 0 ) {
+                    //MARK: - Reel 1
+                    ZStack {
+                        ReelView()
+                        
+                        Image("gfx-bell")
+                            .resizable()
+                            .modifier(ImageModifier())
+                    }//:ZSTACK
+                    
+                    HStack{
+                        //MARK: - Reel 2
+                        ZStack {
+                            ReelView()
+                            
+                            Image("gfx-cherry")
+                                .resizable()
+                                .modifier(ImageModifier())
+                        }//:ZSTACK
+                        
+                        Spacer()
+                        
+                        //MARK: - Reel 3
+                        ZStack {
+                            ReelView()
+                            
+                            Image("gfx-seven")
+                                .resizable()
+                                .modifier(ImageModifier())
+                        }//:ZSTACK
+                    }
+                    .frame(maxWidth: 500)
+                    
+                    //MARK: - SpinButton
+                    Button {
+                        print("Spin the wheels")
+                    }label: {
+                        Image("gfx-spin")
+                            .renderingMode(.original)
+                            .resizable()
+                            .modifier(ImageModifier())
+                    }
+                }//:HSTACK
+                .layoutPriority(2)
+                
                 
                 //MARK: - Footer
                 

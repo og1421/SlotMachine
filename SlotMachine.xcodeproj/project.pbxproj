@@ -22,6 +22,7 @@
 		85C845E629B7A4D800DBB671 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C845E529B7A4D800DBB671 /* LogoView.swift */; };
 		85C845E829B7A56000DBB671 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C845E729B7A56000DBB671 /* Modifiers.swift */; };
 		85C845EA29B7A80800DBB671 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C845E929B7A80800DBB671 /* Extensions.swift */; };
+		85C845EC29B8F28200DBB671 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C845EB29B8F28200DBB671 /* ReelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		85C845E529B7A4D800DBB671 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		85C845E729B7A56000DBB671 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		85C845E929B7A80800DBB671 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		85C845EB29B8F28200DBB671 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				854D006329B74CFF00F09490 /* ContentView.swift */,
 				85C845E529B7A4D800DBB671 /* LogoView.swift */,
+				85C845EB29B8F28200DBB671 /* ReelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C845EC29B8F28200DBB671 /* ReelView.swift in Sources */,
 				85C845EA29B7A80800DBB671 /* Extensions.swift in Sources */,
 				85C845E829B7A56000DBB671 /* Modifiers.swift in Sources */,
 				854D006429B74CFF00F09490 /* ContentView.swift in Sources */,
